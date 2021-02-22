@@ -1,5 +1,15 @@
 <?php
 
+
+
+
+
+
+
+
+
+
+
 namespace Composer;
 
 use Composer\Semver\VersionParser;
@@ -14,12 +24,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'v8.5.10',
-    'version' => '8.5.10.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '24911d620b2babbbefec71043d0a3e7fec8fd624',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -41,6 +51,24 @@ private static $installed = array (
       array (
       ),
       'reference' => 'dff976c2f3487d42c1db75a3b180e2b9f0e72ce0',
+    ),
+    'cloudinary-labs/cloudinary-laravel' => 
+    array (
+      'pretty_version' => '1.0.4',
+      'version' => '1.0.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7543449243848eb936e4c492b82ec64512e67da0',
+    ),
+    'cloudinary/cloudinary_php' => 
+    array (
+      'pretty_version' => '2.0.3',
+      'version' => '2.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '61b38c80a9a4f9269dc0220c02446492d079c1c3',
     ),
     'cordoval/hamcrest-php' => 
     array (
@@ -453,12 +481,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => 'v8.5.10',
-      'version' => '8.5.10.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '24911d620b2babbbefec71043d0a3e7fec8fd624',
     ),
     'laravel/sail' => 
     array (
@@ -773,8 +801,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
@@ -972,6 +1000,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+    ),
+    'shrikeh/teapot' => 
+    array (
+      'pretty_version' => 'v2.3.1',
+      'version' => '2.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2fea5720963f22eedb920ee65b9d643bfa3e8daf',
     ),
     'swiftmailer/swiftmailer' => 
     array (
@@ -1238,6 +1275,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '72ca213014a92223a5d18651ce79ef441c12b694',
+    ),
+    'teapot/status-code' => 
+    array (
+      'pretty_version' => 'v1.1.2',
+      'version' => '1.1.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7aaba4364645ebb9d3a36267c9b3a32206d3042b',
     ),
     'theseer/tokenizer' => 
     array (
